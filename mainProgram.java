@@ -1,7 +1,15 @@
 
-import Lesson_1.Belka;
+import Lesson_1.Animal;
 
 
 public class mainProgram {
-    Belka Petrunya = new Belka();
+
+    public static void main(String[] args){
+        Animal cat = new Animal("Маккей", 1);
+
+        System.out.println(cat.name);
+    }
+
+
+
 }
